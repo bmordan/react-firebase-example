@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import {Editor} from './Editor.js'
-import { getFirestore, collection, setDoc, doc, getDocs, onSnapshot } from 'firebase/firestore'
+import { getFirestore, collection, setDoc, doc, onSnapshot } from 'firebase/firestore'
 import parser from 'html-react-parser'
 
 export const Notes = ({user}) => {
